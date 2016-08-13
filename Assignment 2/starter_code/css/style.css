@@ -42,7 +42,7 @@ Developer @GA in NYC
 .top-button {
   background-color: white;
   border: none;
-  color: gray;
+  color:#606161;
   padding: 15px 28px;
   text-align: center;
   text-decoration: none;
@@ -65,7 +65,7 @@ Developer @GA in NYC
   background-color: white;
   border: none;
   color: black;
-  padding: 15px 28px;
+  padding: 15px 45px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -83,6 +83,24 @@ Developer @GA in NYC
   font-size: 15px;
 }
 
+#bottom1 {
+  background-color: #1B1B1B;
+  clear: left;
+  float: left;
+  margin-bottom:10px;
+  height:200px;
+  width:65%;
+}
+
+#bottom2 {
+  background-color: blue;
+  float: left;
+  margin-bottom:10px;
+  height:200px;
+  width:34%;
+  margin-left:1%;
+}
+
 h1 {
   font-family: 'Passion One', sans-serif;
   font-size: 75px;
@@ -91,11 +109,17 @@ h1 {
 
 h2 {
   font-family: helvetica, sans-serif;
+  color: #121212;
   text-align: center;
   font-size: 14px;
   width: 23em;
   margin-top: 6px;
   margin-bottom: 6px;
+}
+
+h3 {
+  font-family: helvetica, semi-bold;
+  font-size: 20px;
 }
    
 nav {
@@ -115,7 +139,7 @@ header{
   margin-top: 10px;
   position:relative;
   padding-top: 50px;
-  padding-left: 120px;
+  padding-left: 24%;
 }
 
 section, aside{
@@ -139,7 +163,6 @@ aside {
 
 footer {
   margin-bottom:15px;
-  border:1px solid black;
   height:100px;
   background:gray;
   clear:left;
