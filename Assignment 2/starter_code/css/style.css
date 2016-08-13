@@ -65,7 +65,7 @@ Developer @GA in NYC
   background-color: white;
   border: none;
   color: black;
-  padding: 15px 45px;
+  padding: 15px 35px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -88,18 +88,68 @@ Developer @GA in NYC
   clear: left;
   float: left;
   margin-bottom:10px;
-  height:200px;
-  width:65%;
+  margin-top: 75px;
+  height:300px;
+  width:100%;
+  background-color: white;
 }
 
-#bottom2 {
+#woman {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.blockquote {
+  font-family:'Fjalla One', sans-serif;
+  text-align: center
+  font-size: 18px;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 20%;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.blockquote p {
+  display: inline;
+}
+
+.social {
+  padding-top: 20px;
+  margin: 10px;
+  float:right;
+}
+
+.logo {
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+span {
+  font-family: 'Passion One', sans-serif;
+  font-size: 20px;
+}
+
+/*#bottom2 {
   background-color: blue;
   float: left;
   margin-bottom:10px;
   height:200px;
   width:34%;
   margin-left:1%;
-}
+  background-image: url("../images/gray-brick.jpg");
+  background-size: cover;
+}*/
 
 h1 {
   font-family: 'Passion One', sans-serif;
@@ -118,8 +168,16 @@ h2 {
 }
 
 h3 {
-  font-family: helvetica, semi-bold;
-  font-size: 20px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+p{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  vertical-align: center;
 }
    
 nav {
@@ -166,6 +224,9 @@ footer {
   height:100px;
   background:gray;
   clear:left;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
 }
 
 
