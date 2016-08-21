@@ -72,10 +72,32 @@ Developer @GA in NYC
   font-size: 15px;
 }
 
+.nav-button:hover {
+  background-color: white;
+  border: none;
+  color: gray;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
 .head-button{
   background-color: white;
   border: 0.5px solid black;
   color: black;
+  padding: 15px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.head-button:hover {
+  background-color: white;
+  border: 0.5px solid black;
+  color: gray;
   padding: 15px 28px;
   text-align: center;
   text-decoration: none;
@@ -139,17 +161,19 @@ Developer @GA in NYC
     width:60%;
     margin-left:1.5%;
     margin-right:1.5%;
-    height:1400px;
+    height:1500px;
     padding-top:5px;
     position: relative;
+    overflow: auto;
   }
 
 #sidebar{
     width:25%;
     background-color: #EEEEEE;
-    height: 1400px;
-    padding-left:15px;
-    padding-right: 15px;
+    height: 1500px;
+    padding-left:3%;
+    padding-right: 3%;
+    overflow: auto;
   }
 
 .side-text {
@@ -159,8 +183,15 @@ Developer @GA in NYC
 
 .posts {
   color:gray;
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: semi-bold;
+}
+
+.posts:hover {
+  color: #FE0000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
   font-weight: semi-bold;
 }
 
@@ -185,12 +216,11 @@ Developer @GA in NYC
 .read-more {
   color: gray;
   padding: 12px;
-
 }
 
 .read-more:hover {
   color:#FE0000;
-  cursor:crosshair;
+  cursor:pointer;
 }
 
 #sign-up {
@@ -200,8 +230,9 @@ Developer @GA in NYC
 }
 
 .sign-button {
+  font-family: 'Fjalla One', sans-serif;
   background-color: white;
-  border: 0.5px solid black;
+  border: 0.5px solid gray;
   color: black;
   padding: 15px 28px;
   text-align: center;
@@ -211,6 +242,7 @@ Developer @GA in NYC
   margin-left: 41%;
   margin-right: 41%;
   margin-top: 10px;
+  cursor: pointer;
   
 }
 
