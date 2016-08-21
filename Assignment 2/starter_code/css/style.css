@@ -158,10 +158,10 @@ Developer @GA in NYC
 }
 
 #blog{
-    width:60%;
+    width:70%;
     margin-left:1.5%;
-    margin-right:1.5%;
-    height:1500px;
+    margin-right:2.5%;
+    height:1420px;
     padding-top:5px;
     position: relative;
     overflow: auto;
@@ -193,6 +193,11 @@ Developer @GA in NYC
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   font-weight: semi-bold;
+}
+
+.post-text {
+  display: block;
+  position: relative;
 }
 
 #photo1 {
@@ -246,6 +251,16 @@ Developer @GA in NYC
   
 }
 
+#post1 {
+  display: block;
+  position: relative
+}
+
+#post2 {
+  display: block;
+  position: absolute;
+}
+
 p.post-text:first-letter {
     font-family: 'Open Sans', sans-serif;
     font-size: 25pt;
@@ -259,6 +274,7 @@ p.post-text:first-letter {
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
+  display: block;
 }
 
 span {
@@ -349,9 +365,8 @@ section, aside{
 }
 
 article {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 300px;
+  height: 700px;
+  display: block;
 }
 
 footer {
