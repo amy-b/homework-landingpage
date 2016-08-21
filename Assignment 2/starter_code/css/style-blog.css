@@ -135,90 +135,6 @@ Developer @GA in NYC
   padding-bottom: 30px;
 }
 
-#blog{
-    width:60%;
-    margin-left:1.5%;
-    margin-right:1.5%;
-    height:1400px;
-    padding-top:5px;
-    position: relative;
-  }
-
-#sidebar{
-    width:25%;
-    background-color: #EEEEEE;
-    height: 1400px;
-    padding-left:15px;
-    padding-right: 15px;
-  }
-
-.side-text {
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 20px;
-}
-
-.posts {
-  color:gray;
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 15px;
-  font-weight: semi-bold;
-}
-
-#photo1 {
-  width:64%;
-  margin-right:1%;
-  background-image: url("../images/woman-running.jpg");
-  background-size: cover;
-}
-
-#photo2 {
-  width:34%;
-  background-image: url("../images/woman-dance.png");
-  background-size: cover;
-}
-
-.blog-img {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.read-more {
-  color: gray;
-  padding: 12px;
-
-}
-
-.read-more:hover {
-  color:#FE0000;
-  cursor:crosshair;
-}
-
-#sign-up {
-  height: 70px;
-  background-color: #f9e42e;
-  clear:left;
-}
-
-.sign-button {
-  background-color: white;
-  border: 0.5px solid black;
-  color: black;
-  padding: 15px 28px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin-left: 41%;
-  margin-right: 41%;
-  margin-top: 10px;
-  
-}
-
-hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 span {
   font-family: 'Passion One', sans-serif;
   font-size: 20px;
@@ -255,36 +171,22 @@ h3 {
   font-family: 'Fjalla One', sans-serif;
   font-size: 25px;
   text-align: center;
-  padding:3px;
-}
-
-h4 {
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 25px;
-  text-align: center;
-  display: block;
-}
-
-h5 {
-  font-family: 'Open Sans', sans-serif;
-  color: gray;
-  font-size: 12px;
-  text-align: left;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 12px;
   text-align: left;
   vertical-align: center;
-  color: black;
 }
    
 nav {
   font-family: 'Fjalla One', sans-serif;
+  font-size: 22px;
   height:50px;
   background-color: white;
   margin-top:10px;
+  text-align: center;
 }
 
 header{
@@ -300,17 +202,23 @@ header{
   padding-left: 24%;
 }
 
-section, aside{
-  margin-bottom:15px;
-  float:left;
-  height:500px;
-}
+  section, aside{
+    margin-bottom:15px;
+    float:left;
+    border:1px solid black;
+    height:500px;
+    background:green;
+  }
 
-article {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 300px;
-}
+  section .blog{
+    width:60%;
+    margin-left:1.5%;
+    margin-right:1.5%;
+  }
+
+  aside .sidebar{
+    width:25%;
+  }
 
 footer {
   margin-bottom:15px;
