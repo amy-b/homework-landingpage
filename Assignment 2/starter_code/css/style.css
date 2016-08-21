@@ -170,7 +170,7 @@ Developer @GA in NYC
 #sidebar{
     width:25%;
     background-color: #EEEEEE;
-    height: 1500px;
+    height: 1400px;
     padding-left:3%;
     padding-right: 3%;
     overflow: auto;
@@ -244,6 +244,16 @@ Developer @GA in NYC
   margin-top: 10px;
   cursor: pointer;
   
+}
+
+p.post-text:first-letter {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25pt;
+    float: left;
+    color: #4B5A5D;
+    line-height: 35px;
+    padding-top: 3px; 
+    padding-right: 3px;
 }
 
 hr {
