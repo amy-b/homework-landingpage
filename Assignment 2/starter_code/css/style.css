@@ -70,6 +70,7 @@ Developer @GA in NYC
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
+  float:left;
 }
 
 .nav-button:hover {
@@ -105,6 +106,7 @@ Developer @GA in NYC
   font-size: 15px;
 }
 
+/* Landing Page */
 #bottom1 {
   background-color: #1B1B1B;
   clear: left;
@@ -157,14 +159,15 @@ Developer @GA in NYC
   padding-bottom: 30px;
 }
 
+/*blog css */
+
 #blog{
     width:70%;
     margin-left:1.5%;
     margin-right:2.5%;
-    height:1420px;
+    height:1300px;
     padding-top:5px;
     position: relative;
-    overflow: auto;
   }
 
 #sidebar{
@@ -175,11 +178,6 @@ Developer @GA in NYC
     padding-right: 3%;
     overflow: auto;
   }
-
-.side-text {
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 20px;
-}
 
 .posts {
   color:gray;
@@ -198,6 +196,30 @@ Developer @GA in NYC
 .post-text {
   display: block;
   position: relative;
+  line-height: fixed;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+
+}
+
+#post1 {
+  display: block;
+  position: relative
+}
+
+#post2 {
+  display: block;
+  position: absolute;
+}
+
+p.post-text:first-letter {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25pt;
+    float: left;
+    color: #4B5A5D;
+    line-height: 35px;
+    padding-top: 3px; 
+    padding-right: 3px;
 }
 
 #photo1 {
@@ -228,10 +250,42 @@ Developer @GA in NYC
   cursor:pointer;
 }
 
+.learn-more {
+  color: gray;
+  padding: 12px;
+}
+
+.learn-more:hover {
+  color:#FE0000;
+  cursor:pointer;
+}
+
+.read-less {
+  color: gray;
+  padding: 12px;
+}
+
+.read-less:hover {
+  color:#FE0000;
+  cursor:pointer;
+}
+
+.learn-less {
+  color: gray;
+  padding: 12px;
+}
+
+.learn-less:hover {
+  color:#FE0000;
+  cursor:pointer;
+}
+
 #sign-up {
   height: 70px;
   background-color: #f9e42e;
   clear:left;
+  display: block;
+
 }
 
 .sign-button {
@@ -239,7 +293,7 @@ Developer @GA in NYC
   background-color: white;
   border: 0.5px solid gray;
   color: black;
-  padding: 15px 28px;
+  padding: 5px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -248,27 +302,12 @@ Developer @GA in NYC
   margin-right: 41%;
   margin-top: 10px;
   cursor: pointer;
+  height: 50px;
   
 }
 
-#post1 {
-  display: block;
-  position: relative
-}
-
-#post2 {
-  display: block;
-  position: absolute;
-}
-
-p.post-text:first-letter {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 25pt;
-    float: left;
-    color: #4B5A5D;
-    line-height: 35px;
-    padding-top: 3px; 
-    padding-right: 3px;
+#footer-text {
+  color: white;
 }
 
 hr {
@@ -277,10 +316,7 @@ hr {
   display: block;
 }
 
-span {
-  font-family: 'Passion One', sans-serif;
-  font-size: 20px;
-}
+
 
 /*#bottom2 {
   background-color: blue;
@@ -336,6 +372,7 @@ p {
   text-align: left;
   vertical-align: center;
   color: black;
+  line-height: fixed;
 }
    
 nav {
@@ -365,14 +402,15 @@ section, aside{
 }
 
 article {
-  height: 700px;
+  height: auto;
   display: block;
+  position: fixed;
 }
 
 footer {
   margin-bottom:15px;
   height:100px;
-  background:gray;
+  background:#4B5A5D;
   clear:left;
   padding-left: 10%;
   padding-right: 10%;
